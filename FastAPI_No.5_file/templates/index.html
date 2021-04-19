@@ -1,0 +1,19 @@
+<body>
+    <h1>文件</h1>
+    <div class="container">
+        <form action="/fileStat1/" enctype="multipart/form-data" method="post">
+            <input type="file" name="filelist" id="filelist" multiple/>
+            <input type="file" name="filename" id="filename" multiple/>
+            <button type="submit">上传</button>
+        </form>
+    </div>
+    <hr />
+    <div class="container">
+        <form action="/fileStat2/" enctype="multipart/form-data" method="post">
+            <input type="file" name="file" id="file"/>
+            <input type="file" name="fileb" id="fileb"/>
+            <input type="text" name="note" id="note" />
+            <button type="submit">上传</button>
+        </form>
+    </div>
+</body>
